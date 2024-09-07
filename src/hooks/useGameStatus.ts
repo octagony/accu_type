@@ -4,7 +4,7 @@ import { useType } from './useType';
 
 type State = 'start' | 'run' | 'finished';
 
-const numberWords = 10;
+const numberWords = 30;
 
 export const useGameStatus = () => {
   const [state, setState] = useState<State>('start');
