@@ -1,3 +1,9 @@
+import { Button } from '../ui/button';
+
 export const Header = () => {
-  return <header>Header</header>;
+  return (
+    <header>
+      <Button>Click</Button>
+    </header>
+  );
 };
